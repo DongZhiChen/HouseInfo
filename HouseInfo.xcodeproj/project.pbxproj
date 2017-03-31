@@ -15,6 +15,8 @@
 		F21372F01E8EF93900D8BB31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F21372EE1E8EF93900D8BB31 /* LaunchScreen.storyboard */; };
 		F21372FB1E8EF93900D8BB31 /* HouseInfoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F21372FA1E8EF93900D8BB31 /* HouseInfoTests.m */; };
 		F21373061E8EF93900D8BB31 /* HouseInfoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F21373051E8EF93900D8BB31 /* HouseInfoUITests.m */; };
+		F21373161E8EF97500D8BB31 /* DZFBBHouseInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = F21373151E8EF97500D8BB31 /* DZFBBHouseInfo.m */; };
+		F21373191E8EFEB700D8BB31 /* DZFBBHouseInfoHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = F21373181E8EFEB700D8BB31 /* DZFBBHouseInfoHeader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		F21373011E8EF93900D8BB31 /* HouseInfoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HouseInfoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F21373051E8EF93900D8BB31 /* HouseInfoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HouseInfoUITests.m; sourceTree = "<group>"; };
 		F21373071E8EF93900D8BB31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F21373141E8EF97500D8BB31 /* DZFBBHouseInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DZFBBHouseInfo.h; path = DZFBBHouseInfo/DZFBBHouseInfo.h; sourceTree = "<group>"; };
+		F21373151E8EF97500D8BB31 /* DZFBBHouseInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DZFBBHouseInfo.m; path = DZFBBHouseInfo/DZFBBHouseInfo.m; sourceTree = "<group>"; };
+		F21373171E8EFEB700D8BB31 /* DZFBBHouseInfoHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DZFBBHouseInfoHeader.h; path = DZFBBHouseInfo/DZFBBHouseInfoHeader.h; sourceTree = "<group>"; };
+		F21373181E8EFEB700D8BB31 /* DZFBBHouseInfoHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DZFBBHouseInfoHeader.m; path = DZFBBHouseInfo/DZFBBHouseInfoHeader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		F21372DF1E8EF93900D8BB31 /* HouseInfo */ = {
 			isa = PBXGroup;
 			children = (
+				F21373131E8EF94000D8BB31 /* DZFBBHouseInfo */,
 				F21372E31E8EF93900D8BB31 /* AppDelegate.h */,
 				F21372E41E8EF93900D8BB31 /* AppDelegate.m */,
 				F21372E61E8EF93900D8BB31 /* ViewController.h */,
@@ -138,6 +145,17 @@
 				F21373071E8EF93900D8BB31 /* Info.plist */,
 			);
 			path = HouseInfoUITests;
+			sourceTree = "<group>";
+		};
+		F21373131E8EF94000D8BB31 /* DZFBBHouseInfo */ = {
+			isa = PBXGroup;
+			children = (
+				F21373141E8EF97500D8BB31 /* DZFBBHouseInfo.h */,
+				F21373151E8EF97500D8BB31 /* DZFBBHouseInfo.m */,
+				F21373171E8EFEB700D8BB31 /* DZFBBHouseInfoHeader.h */,
+				F21373181E8EFEB700D8BB31 /* DZFBBHouseInfoHeader.m */,
+			);
+			name = DZFBBHouseInfo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,7 +296,9 @@
 			files = (
 				F21372E81E8EF93900D8BB31 /* ViewController.m in Sources */,
 				F21372E51E8EF93900D8BB31 /* AppDelegate.m in Sources */,
+				F21373191E8EFEB700D8BB31 /* DZFBBHouseInfoHeader.m in Sources */,
 				F21372E21E8EF93900D8BB31 /* main.m in Sources */,
+				F21373161E8EF97500D8BB31 /* DZFBBHouseInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

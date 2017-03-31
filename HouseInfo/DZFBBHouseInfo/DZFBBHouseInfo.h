@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DZFBBHouseInfo.h
 //  HouseInfo
 //
 //  Created by 陈东芝 on 17/4/1.
@@ -7,10 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "DZFBBHouseInfo.h"
-
-@interface ViewController : UIViewController
-
+#import "DZFBBHouseInfoHeader.h"
+@interface DZFBBHouseInfo : UIViewController
 
 @end
-
